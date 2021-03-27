@@ -83,6 +83,12 @@ body {
     font-weight: 500;
     border-radius: 5px;
     background-color: #F04037;
+    border: 1px solid #C31A12;
+}
+
+.get-start:hover{
+    background-color: ivory;
+    color: red;
 }
 
 .dropdown-list {
@@ -206,6 +212,11 @@ body {
     color: white;
 }
 
+.main-text-link:hover{
+    color: red;
+    background-color: ivory;
+}
+
 .main-text-icon{
     text-decoration: none;
     padding: 20px 0; 
@@ -243,14 +254,15 @@ body {
     margin-top: 40px;
 }
 
-.teams-link{
-    text-decoration: none;
-    color: #413E65;
-    font-size: 30px;
+
+.logo {
+    margin: 40px;
+    filter: grayscale(1);
 }
 
-.teams-link:hover{
-    text-decoration: underline;
+.logo:hover {
+    cursor: pointer;
+    filter: grayscale(0);
 }
 
 .box{
@@ -308,6 +320,11 @@ body {
     -webkit-box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
             box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
     padding: 30px;
+    transition: 0.5s ease;
+}
+
+.mini-box:hover{
+    transform: scale(1.1);
 }
 
 .mini-box-title{
@@ -349,7 +366,8 @@ body {
 }
 
 .box-link:hover{
-    background-color: blue;
+    background-color: ivory;
+    color: blue;
 }
 
 .project .container{
@@ -385,6 +403,12 @@ body {
     padding: 10px 30px;
     display: inline-block;
     border-radius: 5px;
+    border: 1px solid red;
+}
+
+.project-link:hover{
+    background-color: ivory;
+    color: red;
 }
 
 .project-img{
@@ -454,6 +478,10 @@ body {
     font-size: 21px;
 }
 
+.customers{
+    padding-bottom: 100px;
+}
+
 .customers-title{
     font-size: 60px;
     text-align: center;
@@ -474,6 +502,9 @@ body {
 
 .customers-item{
     margin: 0 30px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .customers-list-header{
@@ -544,7 +575,7 @@ body {
 }
 
 .footer{
-    margin-top: 100px;
+    margin-top: ;
     padding: 150px 150px;
     padding-bottom: 0px;
     background-image: url("./img/blue-sun.png"), -webkit-gradient(linear, left top, left bottom, from(#19191B), to(#19191B));
@@ -641,6 +672,11 @@ body {
     font-size: 21px;
 }
 
+.form-link:hover{
+    color: red;
+    background-color: ivory;
+}
+
 .footer-list{
     margin: 150px 0;
     display: -webkit-box;
@@ -707,10 +743,10 @@ body {
     width: 30px;
 }
 
-.footer-icon-link:first-child{
-    color: blue;
-}
-
 .footer-icon{
     padding: 20px 0;
+}
+
+.footer-icon:hover{
+    color: blue;
 }
