@@ -15,7 +15,6 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: -o-linear-gradient(top, white, black);
     background: linear-gradient(to bottom, white, black);
 }
@@ -583,10 +582,8 @@ body {
 }
 
 .footer {
-    margin-top: ;
     padding: 150px 0;
     padding-bottom: 0px;
-    background-image: url("./img/blue-sun.png"), -webkit-gradient(linear, left top, left bottom, from(#19191B), to(#19191B));
     background-image: url("./img/blue-sun.png"), -o-linear-gradient(#19191B, #19191B);
     background-image: url("./img/blue-sun.png");
     background-color: #19191B;
@@ -605,8 +602,8 @@ body {
     background-image: url("./img/white-curve-3.png");
     background-repeat: no-repeat;
     background-size: contain;
-    bottom: 1150px; */
-}
+    bottom: 1150px;
+}*/
 
 .footer .container {
     display: -webkit-box;
@@ -700,10 +697,6 @@ body {
     text-decoration: none;
     color: white;
     margin-bottom: 5px;
-}
-
-.footer-item{
-    width: ;
 }
 
 .footer-sub-item {
@@ -1180,10 +1173,6 @@ body {
         width: 90%;
     }
 
-    .about-box{
-        flex-direction: ;
-    }
-
     .footer-box{
         width: 90%;
     }
@@ -1228,7 +1217,4 @@ body {
     .footer-icons{
         padding-left: 10px;
     }
-
-    
-
 }
