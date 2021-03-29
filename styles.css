@@ -953,6 +953,10 @@ body {
         width: 700px;
     }
 
+    .dropdown-list{
+        visibility: hidden;
+    }
+
     .teams-list{
         flex-wrap: wrap;
     }
